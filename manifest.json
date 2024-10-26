@@ -1,1 +1,1 @@
-{"manifest_version":3,"name":"rightclicker","version":"0","description":"Enable right click","icons":{"48":"128.png","128":"128.png"},"background":{"service_worker":"s.js"},"permissions":["scripting"],"host_permissions":["<all_urls>"],"action":{}}
+{"manifest_version":3,"name":"rightclicker","version":"0","description":"Enable right click","icons":{"128":"128.png"},"background":{"service_worker":"s.js"},"permissions":["scripting"],"host_permissions":["<all_urls>"],"action":{}}
