@@ -7,7 +7,7 @@
     "128":"128.png"
   },
   "background": {
-    "service_worker":"s.js"
+    "service_worker": "bg.js"
   },
   "permissions": [
     "scripting"
