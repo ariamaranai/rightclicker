@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "rightclicker",
   "version": "0",
-  "description": "Enable right click",
+  "description": "Enable right-click and text selection",
   "icons": {
     "128":"128.png"
   },
