@@ -10,7 +10,7 @@
     "service_worker": "bg.js"
   },
   "permissions": [
-    "scripting"
+    "userScripts"
   ],
   "host_permissions": [
     "<all_urls>"
