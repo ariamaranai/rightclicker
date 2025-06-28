@@ -9,5 +9,5 @@ chrome.action.onClicked.addListener(async tab => {
       target,
       css: "*{user-select:text!important}"
     });
-  } catch (e) {}
+  } catch {}
 });
