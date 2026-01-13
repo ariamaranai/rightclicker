@@ -7,7 +7,7 @@ chrome.action.onClicked.addListener(async tab => {
     });
     await chrome.userScripts.execute({
       target,
-      js: [{ code: 'addEventListener("contextmenu",e=>e.stopImmediatePropagation(),1),addEventListener("selectstart",e=>e.stopImmediatePropagation(),1)' }]
+      js: [{ code: '{let f=e=>e.stopImmediatePropagation();addEventListener("contextmenu",f,1),addEventListener("selectstart",f,1),addEventListener("copy",f,1)}' }]
     });
   } catch {}
 });
