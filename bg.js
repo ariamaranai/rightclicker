@@ -5,9 +5,10 @@ chrome.action.onClicked.addListener(async tab => {
       target,
       css: "*{user-select:text!important}"
     });
-    await chrome.userScripts.execute({
+    await chrome.scripting.executeScript({
       target,
-      js: [{ code: '{let f=e=>e.stopImmediatePropagation();addEventListener("contextmenu",f,1),addEventListener("selectstart",f,1),addEventListener("copy",f,1)}' }]
+      world: "MAIN",
+      files: ["main.js"]
     });
   } catch {}
 });
