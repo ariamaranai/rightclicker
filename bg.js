@@ -5,7 +5,7 @@ chrome.action.onClicked.addListener(async tab => {
       target,
       css: "*{user-select:text!important}"
     });
-    await chrome.scripting.executeScript({
+    return await chrome.scripting.executeScript({
       target,
       world: "MAIN",
       files: ["main.js"]
