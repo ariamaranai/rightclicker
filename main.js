@@ -3,4 +3,6 @@
   addEventListener("contextmenu", f, 1);
   addEventListener("selectstart", f, 1);
   addEventListener("copy", f, 1);
+  addEventListener("mouseup", f, 1);
+  addEventListener("pointerup", f, 1);
 }
